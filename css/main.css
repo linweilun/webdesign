@@ -1,3 +1,50 @@
 #div3{
     color:blue;
 }
+#main{
+    width:500px;
+    height:1000px;
+    float: left;
+    font-size:20px;
+}
+#header{
+    width:500px;
+    height:200px;
+    background-color: blue;
+    float: right;
+}
+#navigation{
+    width:500px;
+    height:200px;
+    background-color: green;
+    float: right;
+}
+#content{
+    width:350px;
+    height:200px;
+    background-color: yellow;
+    float: right;
+}
+#sidebar{
+    width:150px;
+    height:200px;
+    background-color: orange;
+    float: left;
+}
+#footer{
+    width:500px;
+    height:200px;
+    background-color: red;
+    float: left;
+}
+.ilike-blue-container {
+    @extend .red;
+  }
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: :column;
+}
+.main{
+    flex:1 0 auto;
+}

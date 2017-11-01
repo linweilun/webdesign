@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-    #main{
-        position:center;
-        background-color:gray;
-        height:400px;
-    }
-    #header{
-        
-        padding:20px;
-        border:1px solid dodgerblue;
-        margin:20px;
-        height:20px;
-    }
-    #navigation{
-        
-        padding:20px;
-        border:1px solid blue;
-        margin:20px;
-        height:3px;
-    }
-    #content{
-        padding:20px;
-        border:1px solid blue;
-        margin:20px;
-        width:200px;
-        float:right;
-    }
-    #sidebar{
-        padding:20px;
-        border:1px solid blue;
-        margin:20px;
-        width:80px;
-        float:left;
-    }
-    #footer{
-        padding:20px;
-        border:2px solid blue;
-        margin:20px;
-        
-        float:left;
-    }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </head>
+
 <body>
-    <div id="main">
-        <div id="header"></div>
-        <div id="navigation"></div>
-        <div id="content"></div>
-        <div id="sidebar"> </div>
-        <div id="footer"></div>
+    <!-- <div id="main">
+        <div id="header">header</div>
+        <div id="navigation">navigation</div>
+        <div id="content">content</div>
+        <div id="sidebar">sidebar</div>
+        <div id="footer">footer</div>
+    </div> -->
+    <!-- <div class="ilike-blue-container">
+        <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+        <div class="card-panel">
+            <span class="yellow-text  pink lighten-2">This is a card panel with dark blue text</span>
+        </div>
+    </div> -->
+    <div>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="sass.html">
+                            <i class="material-icons left">search</i>Link with Left Icon</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">
+                            <i class="material-icons right">view_module</i>Link with Right Icon</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
+
 </html>
